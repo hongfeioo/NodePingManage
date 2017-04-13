@@ -10,13 +10,13 @@ Node Ping Manage
 ----------------
 ```bash
 python npm.py
-.....
 ```
 
 推荐添加计划任务
 ---------------
+```bash
  */3 * * * * python /root/npm/npm.py  > /dev/null
-
+```
 
 配置文件格式
 -----------------------
