@@ -63,7 +63,7 @@ Up,Down 报警状态机
 ```bash
 */1 * * * * python /root/NodePingManage/npm.py  > /dev/null
 ```
-*注意：如果使用计划任务,npm.py中的路径请使用绝对路径*
+**注意：如果使用计划任务,npm.py中的devicefile_init 和 devicetmp 路径请使用绝对路径**
 
 排错 
 ------

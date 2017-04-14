@@ -21,7 +21,7 @@ devicetmp = './npm.tmp'
 #--------logfile--------------
 pythonlog =  '/root/mylog.txt'
 
-npm_title = "npm.slp"    #example:NPM.idc3
+npm_title = "npm.idc1"    #example:NPM.idc3
 linecount = 0
 MAX_process = 300       #mutiprocessing
 sms_off = 0
