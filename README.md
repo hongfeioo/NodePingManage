@@ -26,6 +26,13 @@ python npm.py
 |192.168.1.1|Server1|Init|yihf@liepin.com|13521161889
 
 
+邮件短信报警模块配置
+---------------------------
+```bash
+git clone  https://github.com/hongfeioo/messagemodule.git
+```
+[messagemodule](https://github.com/hongfeioo/messagemodule)</p>
+
 
 
 Up,Down 报警状态机

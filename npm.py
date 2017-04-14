@@ -10,10 +10,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText  
 from email.mime.image import MIMEImage  
 
-import sys
-if not "/root/labroom" in sys.path:
-    sys.path.append("/root/labroom")
-import messageMode
+
+
+from  messagemodule  import messageMode
 from pingModule import ping
 
 #-------config------------------
