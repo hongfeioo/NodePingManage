@@ -18,6 +18,7 @@ from pingModule import ping
 #-------config------------------
 devicefile_init = './npm.ini'
 devicetmp = './npm.tmp'
+#--------logfile--------------
 pythonlog =  '/root/mylog.txt'
 
 npm_title = "npm.slp"    #example:NPM.idc3

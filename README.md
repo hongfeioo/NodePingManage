@@ -63,12 +63,14 @@ Up,Down 报警状态机
 ```bash
  */3 * * * * python /root/npm/npm.py  > /dev/null
 ```
+*注意：如果使用计划任务,npm.py中的路径请使用绝对路径*
 
 排错 
 ------
 1   配置文件末尾请不要留空行.</p>
 2   所有日志默认输出的位置是：/root/mylog.txt  </p>
 3   如果修改了pingModule中的文件，需要删除*.pyc  </p>
+3   使用root权限运行
 
 开发环境
 --------
