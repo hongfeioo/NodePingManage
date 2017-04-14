@@ -9,17 +9,18 @@ Node Ping Manage
 启动方法
 ----------------
 ```bash
+git clone https://github.com/hongfeioo/NodePingManage.git
+cd NodePingManage
+git clone  https://github.com/hongfeioo/messagemodule.git
 python npm.py
 ```
 
-推荐添加计划任务
----------------
-```bash
- */3 * * * * python /root/npm/npm.py  > /dev/null
-```
 
 配置文件格式
 -----------------------
+```bash
+vi npm.ini 
+```
 | 设备IP | 设备描述|初始状态关键字|邮箱|手机号|
 |-----|------|----|----|----|
 |114.114.114.114|CoreSwExample|Init|yihf@liepin.com|13521161889
@@ -28,11 +29,7 @@ python npm.py
 
 邮件短信报警模块配置
 ---------------------------
-```bash
-cd NodePingManage
-git clone  https://github.com/hongfeioo/messagemodule.git
-```
-[messagemodule](https://github.com/hongfeioo/messagemodule)</p>
+[messagemodule](https://github.com/hongfeioo/messagemodule#%E9%82%AE%E7%AE%B1%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%9F%AD%E4%BF%A1%E9%80%9A%E9%81%93%E9%85%8D%E7%BD%AE)</p>
 
 
 
@@ -58,6 +55,14 @@ Up,Down 报警状态机
 1  主程序第一次运行时，从配置文件npm.ini中读取每行信息，并发对每一行的主机ip进行ping测试, 探测的结果会写入npm.tmp文件.</p>
 2  当程序第二次运行时，会先读取npm.tmp文件中数据作为参考，然后进行第二次ping探测，如果发现本次探测结果和参考状态不符，则说明状态有变化，触发报警,并把最新状态存入npm.tmp。</p>
 3  如果npm.ini进行了调整，需要删除npm.tmp文件。
+
+
+
+添加计划任务
+---------------
+```bash
+ */3 * * * * python /root/npm/npm.py  > /dev/null
+```
 
 排错 
 ------
