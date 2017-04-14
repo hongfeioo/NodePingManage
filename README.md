@@ -29,6 +29,7 @@ python npm.py
 邮件短信报警模块配置
 ---------------------------
 ```bash
+cd NodePingManage
 git clone  https://github.com/hongfeioo/messagemodule.git
 ```
 [messagemodule](https://github.com/hongfeioo/messagemodule)</p>
