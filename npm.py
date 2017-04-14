@@ -120,7 +120,7 @@ def main(_linecount):
     for res in result:
         if (res.successful() != True):
             print "Mutiprocess fail !"
-            print 'Mutiprocess ret:',res.get(),res.successful()
+            #print 'Mutiprocess ret:',res.get(),res.successful()
 
 if __name__ == "__main__":
     os.system("echo "+begintime+"  NPM  scan  begin !  >> "+pythonlog)  # log to mylog.txt 
