@@ -4,7 +4,7 @@ Node Ping Manage
 描述
 ------------
 本项目通过ping的方式监测设备的死活，出现状态变化即触发报警， 报警方式可以是邮件／短信。
-
+[本项目已经Docker化，推荐使用](https://github.com/hongfeioo/npmdocker)</p>
 
 启动方法
 ----------------
