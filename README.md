@@ -9,6 +9,7 @@ Node Ping Manage
 启动方法
 ----------------
 ```bash
+cd /home
 git clone https://github.com/hongfeioo/NodePingManage.git
 cd NodePingManage
 git clone  https://github.com/hongfeioo/messagemodule.git
