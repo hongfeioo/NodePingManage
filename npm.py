@@ -16,8 +16,8 @@ from  messagemodule  import messageMode
 from pingModule import ping
 
 #-------config------------------
-devicefile_init = './npm.ini'
-devicetmp = './npm.tmp'
+devicefile_init = '/home/NodePingManage/npm.ini'
+devicetmp = '/home/NodePingManage/npm.tmp'
 #--------logfile--------------
 pythonlog =  '/root/mylog.txt'
 
