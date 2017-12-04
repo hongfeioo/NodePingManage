@@ -79,7 +79,7 @@ Python 2.7.5
 
 作者介绍
 ----------
-yihongfei  QQ:413999317   MAIL:yihongfei@xiaomi.com
+yihongfei  QQ:413999317   
 
 CCIE 38649
 
