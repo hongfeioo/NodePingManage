@@ -24,8 +24,8 @@ vi npm.ini
 ```
 | 设备IP | 设备描述|初始状态关键字|邮箱|手机号|
 |-----|------|----|----|----|
-|114.114.114.114|CoreSwExample|Init|yihf@liepin.com|13521161889
-|192.168.1.1|Server1|Init|yihf@liepin.com|13521161889
+|114.114.114.114|CoreSwExample|Init|yihf@lie.com|1352116188X
+|192.168.1.1|Server1|Init|yihf@lie.com|1352116188X
 
 
 邮件短信报警模块配置
